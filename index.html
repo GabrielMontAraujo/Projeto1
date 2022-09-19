@@ -11,6 +11,11 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="preconnect" href=" [Overpass](https://fonts.google.com/specimen/Overpass?preview.text_type=custom)
+    - Weights: 300, 600">
+    <link rel="spreconnect" href="[Ubuntu](https://fonts.google.com/specimen/Ubuntu?preview.text_type=custom)
+    - Weights: 400, 500, 700">
+    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="header.css" />
     <title>Primeiro Projeto | [Blogr]</title>
 
@@ -27,38 +32,55 @@
   </head>
   <body>
     <header>
-      <h1>Blogr</h1>
       <nav>
-        <ul class="menuProduct">
-          <li>Product</li>
-          <li>Product Overview</li>
-          <li>Pricing</li>
-          <li>Marketplace</li>
-          <li>Features</li>
-          <li>Integrations</li>
+        <h1 class="logo">Blogr</h1>
+        <ul class="menuPrincipal">
+          <li><a>Product</a>
+            <ul class="menuProduct">
+              <li>Product Overview</li>
+              <li>Pricing</li>
+              <li>Marketplace</li>
+              <li>Features</li>
+              <li>Integrations</li>
+            </ul>
+          </li>  
+          <li><a>Company</a>
+            <ul class="menuCompany">
+              <li>About</li>
+              <li>Team Blog Careers</li>
+            </ul>
+          </li>  
+          <li><a>Connect</a>
+            <ul class="menuConnect">
+              <li>Contact</li>
+              <li>Newsletter</li>
+              <li>LinkedIn</li>
+            </ul>
+          </li>
+          <ul class="menuLateral">
+            <li>
+              <button>Login</button>
+            </li>
+            <li>
+             <button>Sign Up</button>
+            </li>
+          </ul>  
         </ul>
-        <ul class="menuCompany">
-          <li>Company</li>
-          <li>About</li>
-          <li>Team Blog Careers</li>
-        </ul>
-        <ul class="menuConnect">
-          <li>Connect</li>
-          <li>Contact</li>
-          <li>Newsletter</li>
-          <li>LinkedIn</li>
-        </ul>
-        <ul class="menuLogin__lateral"></ul>
-        Login Sign Up
       </nav>
-      <p id="textHeader">
-        A modern publishing platform Grow your audience and build your online
-        brand Start for Free Learn More
+      <div id="textHeader">
+        <ul><h1>A modern publishing platform </h1></ul>
+        <ul>Grow your audience and build your online brand</ul>  
+        <ul> 
+          <button>Start for Free</button>  
+          <button>More</button> 
+        </ul> 
+
       </p>
     </header>
     <main>
+      <h2>Designed for the future</h2> 
       <section class="mainTop">
-        Designed for the future Introducing an extensible editor Blogr features
+        Introducing an extensible editor Blogr features
         an exceedingly intuitive interface which lets you focus on one thing:
         creating content. The editor supports management of multiple blogs and
         allows easy manipulation of embeds such as images, videos, and Markdown.
