@@ -1,20 +1,36 @@
-.cellPhone{
-  align-items: flex-start;
-  height: 100px;
-  margin-top: -20px;
-  position: absolute;
-  top: -20px;
-  width: 180px;
+.mainMiddle{
+  display:flex;
 }
 
+#cellPhone{
+  left: 0;
+  margin-left: 0;
+  position: absolute;
+  top: -20%;
+  width: 25%;
+  z-index: -1;
+}
+
+#circles{
+  background: linear-gradient( hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+  position: absolute;
+  width:inset(10%); 
+  overflow: hidden;
+  z-index: -2;
+
+}
 .boxGray{
-  background-color: hsl(237, 17%, 21%);
+  background: linear-gradient( hsl(237, 17%, 21%), hsl(237, 23%, 32%));
   border-bottom-left-radius: 55px;
   border-top-right-radius: 65px;
   color: #FFFFFF;
-  display: flex;
+  display: grid;
   height: 280px;
-
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 1338px;
 }
 
 .boxGray h3{
@@ -23,4 +39,14 @@
 
 .boxGray p{
   font-size: 16px;
+}
+
+.boxGray #cellPhone{
+gap: 15px; 
+}
+
+.boxGray .gridInfra{
+  align-items: center;
+  display: grid;
+  margin-inline:auto;
 }
