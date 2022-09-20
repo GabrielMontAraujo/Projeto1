@@ -1,38 +1,38 @@
+
+.logoT{
+  height: 30px;
+  margin-right: 30px;
+  width: 80px;
+}
+
 header{
-  background-image: linear-gradient(orange, red);
-  background-image: url(./images/bg-pattern-intro-desktop.svg) top / cover no-repeat;
+  background-image: linear-gradient(hsl(13, 100%, 72%),hsl(353, 100%, 62%));
+  background-image: url(../images/bg-pattern-intro-desktop.svg) right top / cover no-repeat;
   box-sizing: content-box;
   border-bottom-left-radius: 40px;
   display: flex;
   flex-direction: column;
-  font-family: 'ubuntu', sans-serif;
+  font-family: 'Inter', sans-serif;
   color: #ffffff;
   padding:5%;
-  max-width: 1440px;
- 
-}
-
-.logo{
-  margin-right: 5%;
-  margin-left: 10%;
-  font-family: 'ubuntu', sans-serif;
-  font-size: 30px;
+  max-width: 1200px;
+  width: 100%;
 }
 
 nav{
   display: flex;
   flex-direction: row;
-  /*padding:0 10% 0 10%;*/
+  margin-left: 50px;
 }
 
 .menuPrincipal{
   display: flex;
   flex-direction: row;
-  font-family: 'overpass', sans-serif;
+  font-family: 'Inter', sans-serif;
+  justify-content: space-around;
   list-style: none;
 }
 
-/*.menuPrincipal:last-child{*/
 .menuProduct{
   /*display: flex;
   flex-direction: column;*/

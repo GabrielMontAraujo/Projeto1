@@ -1,0 +1,26 @@
+.cellPhone{
+  align-items: flex-start;
+  height: 100px;
+  margin-top: -20px;
+  position: absolute;
+  top: -20px;
+  width: 180px;
+}
+
+.boxGray{
+  background-color: hsl(237, 17%, 21%);
+  border-bottom-left-radius: 55px;
+  border-top-right-radius: 65px;
+  color: #FFFFFF;
+  display: flex;
+  height: 280px;
+
+}
+
+.boxGray h3{
+  color: #FFFFFF;
+}
+
+.boxGray p{
+  font-size: 16px;
+}
