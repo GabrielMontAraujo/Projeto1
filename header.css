@@ -1,0 +1,99 @@
+
+h1{
+  color: white;
+  font-size: 3.4rem;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 11rem;
+}
+
+.contentTitle{
+  color: white;
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.8rem;
+  margin-top: 1.3rem;
+}
+
+header{
+  width: 100%;
+  height: 600px;
+  border-bottom-left-radius: 100px;
+  background-image: url('./images/bg-pattern-intro-mobile.svg'), linear-gradient(135deg, hsl(13, 100%, 72%), hsl(356, 100%, 66%));
+  background-size: 300%, 100%;
+  background-position: 35% 34%, 0% 0%;
+  background-repeat: no-repeat, no-repeat;
+  padding: 3rem 2.5rem;
+}
+
+header .contentTitle{
+  color: white;
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.8rem;
+  margin-top: 1.3rem;
+}
+
+nav{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logoT{
+  height: 3.5rem;
+}
+
+.textHeader{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+  justify-content: space-around; 
+  padding-top: 11rem; 
+}
+
+.textHeader ul{
+  align-items: center;
+  display: flex;
+  gap: 15px;
+  margin-top: 5px;
+}
+
+.textHeader ul h2{
+  color: white;
+}
+
+.titleButton{
+  margin-bottom: 0;
+  padding: 0;
+}
+.button ul{
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width:100%;
+  margin-top: 4.5rem;
+}
+
+.button a{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 4.8rem;
+  width: 13.8rem;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: transparent;
+  color: white;
+  border-radius: 2rem;
+  border: .8px solid white;
+  padding: .7rem 1rem;
+}
+
+.button a:hover{
+  background-color:white;
+  color: hsl(356, 100%, 66%);
+}

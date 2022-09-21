@@ -1,6 +1,41 @@
 .mainBottom{
+  align-items: center;
   display: flex;
-  color: hsl(237, 17%, 21%, 0.5);
-  font-size: 16px;
+  flex-direction: column;
+  margin: 1.5rem;
+  padding: 6rem 2.5rem 0 2.5rem;
 }
 
+.notebook {
+  display: flex;
+  flex-direction: column;
+}
+
+.notebook img{
+margin-top: 7.8rem;
+margin-bottom: 4rem;
+width: 100%;
+transform: scale(1.52);
+}
+
+.notebook__content{
+  text-align: center;
+  width: 100%;
+
+}
+
+.subtitleMain__bottom{
+  color: hsl(208, 49%, 24%);
+  font-weight: 600;
+  font-size: 2.8rem;
+  margin-top: 4rem;
+  line-height: 3.2rem;
+  text-align: center;
+}
+.notebook__content p{
+    color: hsl(207, 13%, 34%);
+    font-size: 1.7rem;
+    font-weight: 300;
+    margin-top: 2.5rem;
+    line-height: 2.8rem;
+}

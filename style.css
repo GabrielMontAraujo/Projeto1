@@ -1,8 +1,22 @@
-main{
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  justify-content: space-between;
-  flex-wrap: wrap;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: 'Overpass', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+a{
+  text-decoration: none;
 }

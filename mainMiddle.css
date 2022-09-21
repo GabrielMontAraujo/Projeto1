@@ -2,13 +2,19 @@
   display:flex;
 }
 
-#cellPhone{
-  left: 0;
-  margin-left: 0;
+.boxPhone{
+height: 10rem;
+position: relative;
+width: 100%;
+}
+
+#cellphone{
   position: absolute;
-  top: -20%;
-  width: 25%;
-  z-index: -1;
+  top: 0;
+  left: 0;
+  height:26.5rem;
+  width: 375px;
+  
 }
 
 #circles{
@@ -21,8 +27,8 @@
 }
 .boxGray{
   background: linear-gradient( hsl(237, 17%, 21%), hsl(237, 23%, 32%));
-  border-bottom-left-radius: 55px;
-  border-top-right-radius: 65px;
+  border-bottom-left-radius: 100px;
+  border-top-right-radius: 80px;
   color: #FFFFFF;
   display: grid;
   height: 280px;
