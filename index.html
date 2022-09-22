@@ -20,8 +20,10 @@
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       .attribution {
+        color: white;
         font-size: 11px;
-        text-align: center;
+        padding-top: 5rem;
+        text-align: bottom;
       }
       .attribution a {
         color: hsl(228, 45%, 44%);
@@ -71,18 +73,21 @@
           </div>
       </section>
 
-      <div class="boxPhones">
-        <img id="cellPhone" src="./images/illustration-phones.svg" alt="">  
-      </div>
       <section class="mainMiddle">
+        <div class="boxPhones">
+          <img class="cellPhone" src="./images/illustration-phones.svg" alt="">  
+        </div>
+        <section class="middle">
           <div class="boxGray">
-            <img id="cellPhone" src="./images/bg-pattern-circles.svg" alt="">
-            <h3>State of the Art Infrastructure</h3></li>
-            <p>With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity.
-              This ensures your site will load instantly, no matter where your readers
-              are, keeping your site competitive.
-            </p>
+            <div class="gridInfra">
+              <h3 class="subtitleMain__middle">State of the Art Infrastructure</h3>
+              <p id="gridInfra__paragraph">With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity.
+                This ensures your site will load instantly, no matter where your readers
+                are, keeping your site competitive.
+              </p>
+            </div>
           </div>
+        </section>
       </section>
       <section class="mainBottom">
         <div class="notebook">
@@ -107,7 +112,9 @@
       </section>
     </main>
     <footer>
-      <img class="footerLogo" src="./images/logo.svg" alt="">
+      <div class="mapaSite">
+        <img class="footerLogo" src="./images/logo.svg" alt="">
+      </div>
       <div class="mapaSite">
         <h4 class="footerTitle">Product</h4>
         <a href="#">Overview</a>
