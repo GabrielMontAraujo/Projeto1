@@ -11,7 +11,7 @@
   flex-direction: column;
 }
 
-.notebook img{
+.mobileB{
 margin-top: 7.8rem;
 margin-bottom: 4rem;
 width: 100%;
@@ -38,4 +38,11 @@ transform: scale(1.52);
     font-weight: 300;
     margin-top: 2.5rem;
     line-height: 2.8rem;
+}
+
+@media screen and(max-width:768px) {
+  .notebook .deskB{
+    display: none;
+  }
+  
 }

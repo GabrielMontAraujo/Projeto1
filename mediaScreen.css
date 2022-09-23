@@ -1,0 +1,75 @@
+@media screen and (min-width:768px) {
+
+  header .contentTitle {
+    font-size: 6rem;
+  }
+
+  .textHeader ul{
+    justify-content: center;
+    gap: 1.5%;
+  }
+
+  .mobile{
+    display: none;
+  }
+
+  .desk{
+    left: 56%;
+    position: absolute;
+    top:10%;
+
+  }
+
+  .mainTop{
+    position: relative;
+    overflow: hidden;
+    padding: 15.5rem 17rem 22rem 17rem;
+  }
+
+  .contentMain__top div{
+    width:48%;
+    text-align: left;
+  }
+
+  .subtitleMain__top{
+    display: initial;
+    margin-top:10.5rem;
+  }
+
+  .contentMain__top{
+    align-items: flex-start;
+  }
+
+  .mainBottom{
+    flex-direction: row;
+    position: relative;
+    overflow: hidden;
+    padding: 15.5rem 17rem 22rem 17rem;
+  }
+
+ .deskB{
+    left:-23%;
+    position: absolute;
+    top:-3%;
+    display: block;
+    padding: 7rem;
+  }
+
+  .notebook__content{
+    align-items: flex-end;
+  }
+
+  .mobileB{
+    display: none;
+  }
+
+  
+
+
+
+
+
+
+
+
+}
